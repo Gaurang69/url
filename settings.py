@@ -14,5 +14,5 @@ STATIC_DIR = os.path.join(APPLICATION_DIR, 'static')
 RECAPTCHA_PUBLIC_KEY = '<Your own keys from Google>'
 RECAPTCHA_PRIVATE_KEY = '<You can get these keys at https://www.google.com/recaptcha/admin>'
 RECAPTCHA_DATA_ATTRS = {'theme': 'dark'}
-SERVER_NAME = 'urlshortner123.herokuapp.com'
+#SERVER_NAME = 'urlshortner123.herokuapp.com'
 # SERVER_NAME = 'YourDomain.com'
