@@ -1,10 +1,10 @@
 import os
 
-DB_USERNAME = 'z'
-DB_PASSWORD = 'potato6'
+DB_USERNAME = 'root'
+DB_PASSWORD = 'urlshortner@1234'
 DB_DATABASE_NAME = 'shortener'
 DB_HOST = os.getenv('IP', '127.0.0.1')
-APPLICATION_DIR = os.path.dirname(os.path.realpath(__file__))
+APPLICATION_DIR = os.path.dirname(os.path.abspath(__file__))
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 DEBUG = True
 SECRET_KEY = '<$üP3rPazzWø£D>'
