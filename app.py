@@ -7,3 +7,5 @@ app.config.from_object('settings')
 db = SQLAlchemy(app)
 
 csrf = CSRFProtect(app)
+app.run(debug=True)
+app.run(debug=True)
