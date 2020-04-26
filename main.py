@@ -3,5 +3,5 @@ import url.views
 import url.models
 
 if __name__ == '__main__':
-    app.run()
     app.run(debug=True)
+    
